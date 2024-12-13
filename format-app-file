@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cwd=`pwd`
+./gradlew spotlessApply -PspotlessIdeHook=${cwd}/app/src/main/java/org/example/App.java
+
